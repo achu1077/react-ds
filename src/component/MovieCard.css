@@ -1,0 +1,60 @@
+.movies h1 {
+    color: aliceblue;
+
+}
+.list{
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    gap: 20px;
+    width: 95%;
+    overflow-x:scroll;
+    scrollbar-width: none;
+
+
+}
+.list img {
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+}  
+.now h1 {
+    color: aliceblue;
+
+}
+.ist{
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    gap: 20px;
+    width: 95%;
+    overflow-x: scroll;
+    scrollbar-width: none;
+
+
+}
+.ist img {
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+}  
+.list img{
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 6%;
+    animation: reverse;
+}
+.list img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+.sidebar button:hover img {
+    transform: scale(1.2);
+
+}
+.sidebar button.active {
+    border-left: 30px solid #e5014e;
+    transform: scale(1.2);
+    
+}

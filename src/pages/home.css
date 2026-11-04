@@ -17,11 +17,12 @@
 .main{
     display: block;
     width: 95%;
+    
 }
 .hero{
     padding-left: 40px;
     display: flex;
-    color: rgb(244, 170, 9);
+    color: rgb(242, 241, 240);
 }
 .hero-content{
     padding-top: 120px;
@@ -37,7 +38,51 @@
      background-repeat: no-repeat;
 
 }
-.hero img{
+.mtitle{
     width: 350px;
+    margin-bottom: 30px;
 }
+.hero-button{
+    display: flex;
+    justify-self:flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.playbutton{
+    background-color: rgb(242, 27, 7);
+    color: rgb(222, 224, 227);
+    border: none;
+    font-size: 12px;
+    padding: 14px;
+    width: 120px;
+    border-radius: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.trilerbutton{
+     background-color: rgb(251, 251, 251);
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 13px;
+    padding: 14px;
+    width: 120px;
+    border-radius: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+    
+.imdb{
+    width: 50px;
+    object-fit: contain;
+}
+.imdb-box{
+    display: flex;
+    gap: 10px;
+    
+}
+.B{
+    color: red;
+    
+    
 
+}
